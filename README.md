@@ -9,7 +9,7 @@ Lane Departure Warning System (LDWS)
 Lane Keeping Assist System (LKAS)
 Real-time object detection and tracking
 
-This project is an adaptation of the original  jason-li-831202/Vehicle-CV-ADAS  with enhanced road segmentation capabilities.
+This project is an adaptation of the original  **jason-li-831202/Vehicle-CV-ADAS**  with enhanced road segmentation capabilities.
 Key Features
 
 Multi-model support: Compatible with YOLO family models (v5-v10), EfficientDet, and Ultra-Fast Lane Detection models
