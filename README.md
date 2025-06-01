@@ -423,12 +423,6 @@ This project is licensed under the GNU General Public License v3.0 (GPLv3).
 - Same License
 - State Changes
 
-## 📧 **Contact & Support**
-
-- **Issues**: [GitHub Issues](https://github.com/your-repo/Vehicle-CV-ADAS/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-repo/Vehicle-CV-ADAS/discussions)
-- **Email**: [your-email@domain.com]
-
 ---
 
 **🚗 Safe Driving with Advanced Computer Vision! 🛡️**
