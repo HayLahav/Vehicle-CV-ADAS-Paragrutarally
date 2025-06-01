@@ -84,7 +84,7 @@ python demo.py
 ### **NVIDIA Jetson Xavier Installation**
 ```bash
 # Clone repository
-git clone https://github.com/your-repo/Vehicle-CV-ADAS.git
+git clone https://github.com/HayLahav/Vehicle-CV-ADAS-Paragrutarally.git
 cd Vehicle-CV-ADAS
 
 # Run automated Jetson installation
