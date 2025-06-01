@@ -71,7 +71,7 @@ ADAS-Paragrutarally is an advanced driver assistance system (ADAS) based on comp
 ### **Standard Installation**
 ```bash
 # Clone repository
-git clone https://github.com/your-repo/Vehicle-CV-ADAS.git
+git clone https://github.com/HayLahav/Vehicle-CV-ADAS-Paragrutarally.git
 cd Vehicle-CV-ADAS
 
 # Install dependencies
