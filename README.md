@@ -1,5 +1,12 @@
 # Vehicle-CV-ADAS-Paragrutarally
 
+This project is a continuation and adaptation of the work done in:
+
+**Original Project:** [jason-li-831202/Vehicle-CV-ADAS](https://github.com/jason-li-831202/Vehicle-CV-ADAS)
+
+---
+
+
 Paragrutarally Advanced Road Assistance System (PARAS)
 ##Overview
 Paragrutarally is an advanced driver assistance system (ADAS) based on computer vision techniques. The project uses various object detection, road segmentation, and lane detection algorithms to provide safety features including:
