@@ -1,7 +1,7 @@
 # Vehicle-CV-ADAS-Paragrutarally
 
 **Paragrutarally Advanced Road Assistance System (PARAS)**
-
+This is an enhanced adaptation of the original **jason-li-831202/Vehicle-CV-ADAS** with improved road detection capabilities, NVIDIA Jetson Xavier compatibility, and modern ADAS features.
 <p>
     <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-14354C.svg?logo=python&logoColor=white"></a>
     <a href="#"><img alt="OnnxRuntime" src="https://img.shields.io/badge/OnnxRuntime-FF6F00.svg?logo=onnx&logoColor=white"></a>
@@ -12,9 +12,7 @@
 
 ## 🚗 **Overview**
 
-Paragrutarally is an advanced driver assistance system (ADAS) based on computer vision techniques. This project uses various object detection, road segmentation, and lane detection algorithms to provide comprehensive safety features for vehicles.
-
-This is an enhanced adaptation of the original **jason-li-831202/Vehicle-CV-ADAS** with improved road detection capabilities, NVIDIA Jetson Xavier compatibility, and modern ADAS features.
+ADAS-Paragrutarally is an advanced driver assistance system (ADAS) based on computer vision techniques. This project uses various object detection, road segmentation, and lane detection algorithms to provide comprehensive safety features for vehicles.
 
 ![!ADAS on video](https://github.com/jason-li-831202/Vehicle-CV-ADAS/blob/master/demo/demo.JPG)
 
