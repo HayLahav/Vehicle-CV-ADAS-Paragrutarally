@@ -415,7 +415,7 @@ When reporting issues, please include:
 
 ## 📄 **License**
 
-This project is licensed under the GNU General Public License v3.0 (GPLv3).
+The jason-li-831202/Vehicle-CV-ADAS project is licensed under the GNU General Public License v3.0 (GPLv3).
 
 **GPLv3 License key requirements**:
 - Disclose Source
