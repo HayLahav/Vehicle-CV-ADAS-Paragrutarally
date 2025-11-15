@@ -1,0 +1,17 @@
+# Additional requirements for Moondream2 VLM integration on Jetson Orin Nano
+# Install with: pip install -r requirements_vlm.txt
+
+# Core VLM dependencies
+transformers>=4.35.0
+torch>=2.0.0
+pillow>=9.0.0
+
+# Model-specific dependencies
+timm>=0.9.0
+einops>=0.7.0
+
+# Optional but recommended for Jetson optimization
+accelerate>=0.24.0
+
+# Note: For Jetson Orin Nano, install PyTorch from NVIDIA's pre-built wheels:
+# https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
