@@ -187,11 +187,11 @@ python3 demo_jetson_vlm.py --vlm-interval 120
 
 ## Summary
 
-You now have:
-- ✅ Moondream2 VLM integrated with ADAS
-- ✅ Scene understanding in natural language
-- ✅ Enhanced hazard detection
-- ✅ Weather and condition analysis
-- ✅ Optimized for Jetson Orin Nano performance
+The project includes :
+-  Moondream2 VLM integrated with ADAS
+-  Scene understanding in natural language
+-  Enhanced hazard detection
+-  Weather and condition analysis
+-  Optimized for Jetson Orin Nano performance
 
-**Enjoy enhanced ADAS with vision-language intelligence!** 🚗🤖
+
