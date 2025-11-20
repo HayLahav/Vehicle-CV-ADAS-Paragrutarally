@@ -1,6 +1,6 @@
 # Vehicle-CV-ADAS-Paragrutarally
 
-## Paragrutarally Advanced Road Assistance System (PARAS)
+## Paragrutarally Advanced Road Assistance System 
 
 **This is an enhanced adaptation of the original **jason-li-831202/Vehicle-CV-ADAS** with improved road detection capabilities, NVIDIA Jetson Orin Nano compatibility, and modern ADAS features.**
 
