@@ -66,7 +66,7 @@ ADAS-Paragrutarally is an advanced driver assistance system (ADAS) based on comp
 - **Performance**: 15-35 FPS depending on model complexity
 - **Optimization**: Native TensorRT acceleration, thermal monitoring
 
-## 🚀 **Quick Start**
+##  **Quick Start**
 
 ### **Standard Installation**
 ```bash
@@ -98,7 +98,7 @@ python3 test_jetson.py
 python3 demo_jetson.py
 ```
 
-## 📋 **Requirements**
+##  **Requirements**
 
 ### **Core Requirements**
 - **Python**: 3.7+
@@ -178,7 +178,7 @@ roadDetector.DrawAreaOnFrame(frame)
 objectTracker.DrawTrackedOnFrame(frame)
 ```
 
-## 📊 **Performance Benchmarks**
+##  **Performance Benchmarks**
 
 ### **Standard CUDA Platforms**
 | Model | RTX 3080 | RTX 4070 | GTX 1660 Ti |
@@ -224,7 +224,7 @@ sudo jetson_clocks
 sudo tegrastats
 ```
 
-## 🔧 **Supported Models**
+##  **Supported Models**
 
 ### **Object Detection Models**
 | Model Family | Versions | Precision | Performance |
@@ -274,7 +274,7 @@ Vehicle-CV-ADAS/
 └── demo/                          # Demo videos and images
 ```
 
-## 🎥 **Demo & Examples**
+##  **Demo & Examples**
 
 ### **Demo Video**
 - [**Demo Youtube Video**](https://www.youtube.com/watch?v=CHO0C1z5EWE)
@@ -284,7 +284,7 @@ Vehicle-CV-ADAS/
 ![!LDWS](https://github.com/jason-li-831202/Vehicle-CV-ADAS/blob/master/demo/LDWS.jpg)
 ![!LKAS](https://github.com/jason-li-831202/Vehicle-CV-ADAS/blob/master/demo/LKAS.jpg)
 
-## 🔬 **Testing & Validation**
+##  **Testing & Validation**
 
 ### **Run Tests**
 ```bash
@@ -362,7 +362,7 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
-## 📚 **Resources & Documentation**
+##  **Resources & Documentation**
 
 ### **General Resources**
 - **Original Project**: [jason-li-831202/Vehicle-CV-ADAS](https://github.com/jason-li-831202/Vehicle-CV-ADAS)
