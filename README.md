@@ -12,13 +12,13 @@
     <a href="#"><img alt="License" src="https://img.shields.io/badge/License-GPLv3-blue.svg"></a>
 </p>
 
-## 🚗 **Overview**
+##  **Overview**
 
 ADAS-Paragrutarally is an advanced driver assistance system (ADAS) based on computer vision techniques. This project uses various object detection, road segmentation, and lane detection algorithms to provide comprehensive safety features for vehicles.
 
 ![!ADAS on video](https://github.com/jason-li-831202/Vehicle-CV-ADAS/blob/master/demo/demo.JPG)
 
-## 🎯 **Key Features**
+##  **Key Features**
 
 ### **Safety Systems**
 - **Front Collision Warning System (FCWS)** - Detects potential collisions with vehicles ahead
@@ -34,7 +34,7 @@ ADAS-Paragrutarally is an advanced driver assistance system (ADAS) based on comp
 - **Hardware Acceleration**: TensorRT and ONNX runtime optimization
 - **Cross-Platform**: Standard CUDA and NVIDIA Jetson Xavier support
 
-## 🔧 **Technical Components**
+##  **Technical Components**
 
 ### **Object Detection & Tracking**
 - **Models**: YOLOv5/v6/v7/v8/v9/v10, EfficientDet
@@ -53,16 +53,16 @@ ADAS-Paragrutarally is an advanced driver assistance system (ADAS) based on comp
 - **Precision**: FP16/FP32 options with automatic quantization
 - **Performance**: Optimized for real-time inference
 
-## 🖥️ **Platform Support**
+##  **Platform Support**
 
 ### **Standard Platforms**
 - **OS**: Windows, Linux
 - **GPU**: NVIDIA CUDA-capable GPUs
 - **Memory**: 8GB+ recommended
 
-### **NVIDIA Jetson Xavier** ⚡
+### **NVIDIA Jetson Orin Nano** 
 - **Models**: AGX Xavier, Xavier NX
-- **JetPack**: 4.6+ or 5.0+
+- **JetPack**: 6.0+ or 5.0+
 - **Performance**: 15-35 FPS depending on model complexity
 - **Optimization**: Native TensorRT acceleration, thermal monitoring
 
@@ -81,7 +81,7 @@ pip install -r requirements.txt
 python demo.py
 ```
 
-### **NVIDIA Jetson Xavier Installation**
+### **NVIDIA Jetson Orin Nano Installation**
 ```bash
 # Clone repository
 git clone https://github.com/HayLahav/Vehicle-CV-ADAS-Paragrutarally.git
@@ -114,7 +114,7 @@ pip install -r requirements.txt
 - PyTorch, TorchVision
 - Scikit-learn, Numba
 
-### **Jetson Xavier Dependencies**
+### **Jetson Orin Nano Dependencies**
 ```bash
 pip install -r requirements_jetson.txt
 ```
@@ -187,14 +187,7 @@ objectTracker.DrawTrackedOnFrame(frame)
 | YOLOv8m | 35 FPS | 50 FPS | 25 FPS |
 | Complete ADAS | 25-30 FPS | 35-40 FPS | 20 FPS |
 
-### **NVIDIA Jetson Xavier**
-| Model | Xavier AGX | Xavier NX | Memory Usage |
-|-------|------------|-----------|--------------|
-| YOLOv5n-FP16 | ~35 FPS | ~25 FPS | ~2GB |
-| YOLOv5s-FP16 | ~28 FPS | ~18 FPS | ~3GB |
-| Complete ADAS | 15-20 FPS | 10-15 FPS | ~4GB |
-
-## 🛠️ **Development & Optimization**
+## **Development & Optimization**
 
 ### **Model Conversion (Jetson)**
 ```python
@@ -252,7 +245,7 @@ sudo tegrastats
 | UFLD v2 | Tusimple | ResNet18/34 | Faster |
 | UFLD v2 | CULane | ResNet18/34 | Faster |
 
-## 📁 **Project Structure**
+##  **Project Structure**
 
 ```
 Vehicle-CV-ADAS/
@@ -305,7 +298,7 @@ python3 test_jetson.py
 python3 -c "from jetson_utils import JetsonModelOptimizer; optimizer = JetsonModelOptimizer(); optimizer.benchmark_model('model.onnx', (1,3,640,640))"
 ```
 
-## 🐛 **Troubleshooting**
+##  **Troubleshooting**
 
 ### **Common Issues**
 
@@ -333,7 +326,7 @@ cat /sys/devices/virtual/thermal/thermal_zone*/temp
 - Check logs for "Falling back to ONNX" messages
 - Ensure JetPack and TensorRT are properly installed
 
-## 🎯 **Production Deployment**
+## **Production Deployment**
 
 ### **Docker Deployment**
 ```dockerfile
@@ -382,7 +375,7 @@ WantedBy=multi-user.target
 - **TensorRT Documentation**: https://docs.nvidia.com/deeplearning/tensorrt/
 - **Jetson Community**: https://forums.developer.nvidia.com/c/agx-autonomous-machines/jetson-embedded-systems/
 
-## 🤝 **Contributing**
+##  **Contributing**
 
 1. **Fork the repository**
 2. **Create feature branch**: `git checkout -b feature/amazing-feature`
@@ -396,7 +389,7 @@ WantedBy=multi-user.target
 - Update documentation for API changes
 - Test on both standard and Jetson platforms when possible
 
-## 🐛 **Reporting Issues**
+##  **Reporting Issues**
 
 When reporting issues, please include:
 
@@ -413,7 +406,7 @@ When reporting issues, please include:
 4. **Temperature**: Thermal state during error
 5. **Model Configuration**: Which models you're using
 
-## 📄 **License**
+##  **License**
 
 The jason-li-831202/Vehicle-CV-ADAS project is licensed under the GNU General Public License v3.0 (GPLv3).
 
@@ -425,6 +418,4 @@ The jason-li-831202/Vehicle-CV-ADAS project is licensed under the GNU General Pu
 
 ---
 
-**🚗 Safe Driving with Advanced Computer Vision! 🛡️**
-
-*This project demonstrates the power of modern computer vision in automotive safety applications, supporting both high-performance desktop systems and edge devices like NVIDIA Jetson Xavier.*
+*This project demonstrates the power of modern computer vision in automotive safety applications, supporting both high-performance desktop systems and edge devices like NVIDIA Jetson Orin Nano.*
